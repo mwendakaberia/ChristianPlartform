@@ -1,0 +1,89 @@
+body{
+	background-color: aliceblue;
+}
+div{
+	margin-top: 20vh;
+	animation: cool 5s 1;
+	transition: all 3s linear;
+}
+
+fieldset{
+	width: 30vw;
+	/*height: 50vh;*/
+	margin:auto;
+	border: 15px inset black;
+}
+legend{
+	color: cyan;
+	font-size: 24px;
+	font-family: algerian;
+}
+h1{
+	font-size: 24px;
+	background: linear-gradient(45deg,purple,black,gray,floralwhite);
+	/*width: 25vw;
+	height: 40px;*/
+	display: inline;
+	padding-top: 15px;
+	border-radius: 10px;
+}
+.one{
+	color: cyan;
+	text-shadow: 1px 1px red;
+	font-weight: bolder;
+	font-size: 28px;
+}
+.two{
+	color:lightgreen;
+}
+.three{
+	color:midnightblue;
+	text-shadow: 1px 1px red;
+}
+form{
+	padding-top: 50px;
+}
+label{
+	font-size: 20px;
+	/*color: rebeccapurple;*/
+	color: dodgerblue;
+	background: linear-gradient(45deg,purple,black,gray,floralwhite);
+	border: 2px solid black;
+	border-radius: 5px;
+	font-family: algerian;
+}
+input{
+	border: 2px solid cyan;
+	border-radius: 5px;
+	text-align: center;
+	height: 25px;
+}
+button{
+	/*margin-left: 75%;*/
+	color: rebeccapurple;
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+input:hover{
+	border: 2px solid black;
+	background: linear-gradient(45deg,purple,black,gray,floralwhite);
+	color:red;
+}
+input:focus{
+	border: 2px solid cyan;
+	background:unset;
+	color:cyan;
+}
+button:hover{
+	background: linear-gradient(45deg,purple,black,gray,floralwhite);
+	border: 2px solid cyan;
+	color: cyan;
+	font-weight: bold;
+}
+@keyframes cool{
+	0%{
+		margin-top: -800px;
+}

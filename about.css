@@ -1,0 +1,33 @@
+body{
+	background-color: skyblue;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+div{
+	display: flex;
+}
+p{
+	font-size: 20px;
+	color: midnightblue;
+}
+span{
+	color: rebeccapurple;
+	font-size: 28px;
+	font-family: algerian;
+}
+.third img{
+	border: 1px solid transparent;
+	border-radius: 50%;
+	margin-left: 300px;
+}
+.first img{
+	margin-left: 300px;
+}
+.second img{
+	margin-left: 300px;
+}
+.forth p{
+	margin-left: 300px;
+}

@@ -1,0 +1,129 @@
+body{
+	background-color: aliceblue;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: algerian;
+  justify-content: space-around;
+  display: flex;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    text-decoration: none;
+	color: cyan;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: algerian;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 24px;
+  border: none;
+  outline: none;
+  color: cyan;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+.christ{
+	font-size: 38px;
+	font-family: algerian;
+	text-shadow: 1.5px 1.5px 1.5px cyan;
+	color: gold;
+}
+.small{
+	color: rebeccapurple;
+	text-shadow: 1px 1px 1px red;
+}
+.FromLeft{
+	color:cyan;
+	font-weight: bold;
+	font-size: 30px;
+	position: relative;
+	animation: fromleft 5s linear infinite;
+	animation-fill-mode: forwards;
+}
+.FromRight{
+	color:rebeccapurple;
+	font-weight: bold;
+	font-size: 30px;
+	position: relative;
+	animation: fromright 5s linear infinite;
+	animation-fill-mode: forwards;
+}
+@keyframes fromleft{
+	0%{
+		top: 60px;
+		left: 0vw;
+	}
+	50%{
+		top: 60px;
+		left: 20vw;
+	}
+	100%{
+		top: 60px;
+		left: 0vw;
+	}
+}
+@keyframes fromright{
+	0%{
+		top: 60px;
+		left: 38vw;
+	}
+	50%{
+		top: 60px;
+		left: 20vw;
+	}
+	100%{
+		top: 60px;
+		left: 38vw;
+	}
+}
+ 
